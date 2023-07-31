@@ -1,0 +1,19 @@
+<mvc:View
+    controllerName="dummy.controller.Detail"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Page
+        id="Detail"
+        title="Details"
+        showNavButton="true"
+        navButtonPress=".onNavBack"
+    >
+        <ObjectHeader
+            intro="{product>ProductId}"
+            title="{product>Name}"
+        />
+        <Image src="{product>ProductPicUrl}"></Image>
+    </Page>
+</mvc:View>

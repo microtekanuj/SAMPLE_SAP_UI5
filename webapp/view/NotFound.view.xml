@@ -1,0 +1,16 @@
+<mvc:View
+    controllerName="dummy.controller.NotFound"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Page
+        id="NotFound"
+        title="NotFound"
+    >
+        <ObjectHeader
+            intro="Resource not found"
+            title="Bad Request"
+        />
+    </Page>
+</mvc:View>

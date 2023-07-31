@@ -1,0 +1,28 @@
+<mvc:View
+    controllerName="dummy.controller.Main1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Panel
+        expandable="true"
+        expanded="true"
+    >
+        <content>
+            <Button
+                id="B2"
+                text="{i18n>button1}"
+                press="onFragPress"
+            />
+            <Button
+                id="B1"
+                text="{i18n>button}"
+                press="onHelloPress"
+            />
+            <Input
+                id="INP1"
+                placeholder="Dummy"
+            />
+        </content>
+    </Panel>
+</mvc:View>

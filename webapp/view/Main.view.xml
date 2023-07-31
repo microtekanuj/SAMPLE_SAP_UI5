@@ -1,0 +1,18 @@
+<mvc:View
+    controllerName="dummy.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Page
+        id="page"
+        title="{i18n>title}"
+    >
+        <content>
+           <!--<mvc:XMLView viewName="dummy.view.View1" />-->
+           <mvc:XMLView viewName="dummy.view.View1" />
+           <!-- <mvc:XMLView viewName="dummy.view.Table" />-->
+           <mvc:XMLView viewName="dummy.view.Table"/>
+        </content>
+    </Page>
+</mvc:View>
